@@ -37,6 +37,29 @@
                 <form>
                     <p>Os campos com * são obrigatórios!</p>
                 
+                                    <label for="nomecompleto">Nome Completo</label>
+                <input class="input-padrao" type="email" id="email" required
+                placeholder="seuemail@dominio.com">
+
+                <label for="telefone">Telefone</label>
+                <input class="input-padrao" type="tel" id="email" required
+                placeholder="(xx) xxxxx-xxxx">
+
+                <label for="mesagem">Mensagem</label>
+                <textarea cols="70" rows="5" id="Mensagem"
+                placeholder="Ex: Gostaria de agendar um corte de cabelo e barbearia para o próximo sábado."></textarea>
+
+                <fieldset>
+                    <legend>
+                        <select>
+                            <option>Manhã</option>
+                           <option>Tarde</option>
+                           <option>Noite</option>
+                        </select>
+                    </legend>
+                </fieldset>
+                
+                <fieldset>
                     <legend> Em qual horário prefere ser atendimento?</legend>
                     <label for="radio-email">
                        <input type="radio" name="contato" value="email" id="radio-email"> 
@@ -45,7 +68,7 @@
                     <label for="radio-telefone"> 
                           <input type="radio" name="contato" value="telefone" id="radio-telefone">
                            telefone 
-                    </label> 
+                    </label>
 
                     <label for="radio-whatsapp">
                         <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
@@ -53,12 +76,30 @@
                     </label>  
                 </fieldset>
                 <label class="checkbox"> Gostaria de receber nossas novidades por email?
-                <input type="checkbox" checked  
+                <input type="checkbox" checked>
                 </label>
 
                 <input class="enviar" type="submit" value="enviar">
 
-                </form>
+           
+            </form>
+
+        </table>
+               <th>Dias</th>
+               <th>horário</th>
+          </thead>
+
+        <tbody> 
+            <tr>
+
+
+                <td>terça á sexta</td>
+                <td>Das 8h ás 20h</td>
+            </tr>
+            </tr>
+                 <td>sábado e Domingo</td>
+                 
+
             </main>
         </header>
 </body>
