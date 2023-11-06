@@ -36,6 +36,28 @@
             <main>
                 <form>
                     <p>Os campos com * são obrigatórios!</p>
+                
+                    <legend> Em qual horário prefere ser atendimento?</legend>
+                    <label for="radio-email">
+                       <input type="radio" name="contato" value="email" id="radio-email"> 
+                       email
+                    </label> 
+                    <label for="radio-telefone"> 
+                          <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                           telefone 
+                    </label> 
+
+                    <label for="radio-whatsapp">
+                        <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+                        whatsapp
+                    </label>  
+                </fieldset>
+                <label class="checkbox"> Gostaria de receber nossas novidades por email?
+                <input type="checkbox" checked  
+                </label>
+
+                <input class="enviar" type="submit" value="enviar">
+
                 </form>
             </main>
         </header>
